@@ -8,5 +8,5 @@ function askMyName() {
  
  function helloWorld() {
  const h1message = document.getElementById("myName").innerHTML
-    alert(h1message + ' เลิกกับพี่ ได้ดีทุกคน')
+    alert(h1message + ' "เลิกกับพี่ ได้ดีทุกคน"')
  }
