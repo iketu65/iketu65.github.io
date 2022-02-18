@@ -15,7 +15,7 @@ function calAge() {
    const yearOfBirth = Number(prompt("Please enter your year of birth in A.D."));
    
    if (isNaN(yearOfBirth)||(yearOfBirth==0)||(yearOfBirth==1)||(yearOfBirth>2022)) {
-      alert("Please enter your year of birth in A.D");;
+      alert("Please enter your year of birth in A.D.");;
    } else {
       const age = 2022 - yearOfBirth;
       alert(`ยินดีด้วย นายอยู่ในประเทศนี้มา ${age} ปีแล้ว`);
