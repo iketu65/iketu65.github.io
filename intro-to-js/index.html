@@ -8,11 +8,11 @@
     <title>Document</title>
 
     <style>
-        #helloWorld:hover {
+        /* #helloWorld:hover {
             background-color: bisque;
             margin-left: 100px;
             transform: rotate(90deg);
-        }
+        } */
     </style>
 </head>
 
@@ -22,7 +22,19 @@
     </h1>
     <button onclick="askMyName()">Ask My Name</button>
     <button onclick="helloWorld()" id="helloWorld">Hello World</button>
+    <button onclick="calAge()">Calculate Your Age</button>
     <script src="./phakorn.js"></script>
+
+    <br>
+    <p><strong>Name:</strong>
+    <p id="my-name"></p>
+    </p>
+    <p><strong>Province:</strong>
+    <p id="my-province"></p>
+    </p>
+    <p id="my-province"></p>
+    </p>
+    <button onclick="loadProfile()">Load Profile</button>
 </body>
 
 </html>
